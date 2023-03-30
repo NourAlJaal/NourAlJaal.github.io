@@ -1,19 +1,23 @@
-.profil {
-border-radius: 50%;
+body {
+display: flex;
+font-family: century gothic;
+}
+
+.profilbillede {
+width: 300px;
+height: 300px;
 border-color: rgb(84,138,183);
+border-radius: 50%;
 display: block;
 margin-left: auto;
 margin-right: auto;
 margin-top: 16px;
 }
 
-body {
-display: flex;
-font-family: century gothic;
-}
-
 .del1 {
 width:400px;
+max-width: 400px;
+min-width: 400px;
 background-color: #e0e0e0;
 }
 
@@ -21,34 +25,12 @@ background-color: #e0e0e0;
 margin-left: 16px;
 }
 
+.del1 ul {
+list-style-image: url("bluebullet.png")
+}
+
 .del2 {
 width: 1200px;
-margin-left: 16px;
-}
-
-h4 {
-color: rgb(84,138,183)
-}
-
-h3 {
-text-align: center;
-}
-
-hr {
-border: none;
-background-color: rgb(84,138,183);
-height: 1px;
-}
-
-.linkedinlogo {
-height: 20px;
-width: 20px;
-margin-left: 16px;
-}
-
-.githublogo {
-height: 20px;
-width: 20px;
 margin-left: 16px;
 }
 
@@ -62,24 +44,41 @@ float: right;
 font-weight: normal;
 }
 
-.del1 ul {
-list-style-image: url("bluebullet.png")
+h3 {
+text-align: center;
 }
 
-.del3 {
-margin-left: 150px;
-margin-top: 565px;
+h4 {
+color: rgb(84,138,183)
+}
+
+hr {
+border: none;
+background-color: rgb(84,138,183);
+height: 1px;
 }
 
 button {
 color: rgb(84,138,183) ;
 background-color: #e0e0e0;
 border-radius: 20px;
-font-family: century gothic;
 border-color: #e0e0e0
+font-family: century gothic;
 }
 
 button:hover {
 background-color: rgb(84,138,183);
 color: #e0e0e0;
+}
+
+.linkedinlogo {
+height: 20px;
+width: 20px;
+margin-left: 16px;
+}
+
+.githublogo {
+height: 20px;
+width: 20px;
+margin-left: 16px;
 }

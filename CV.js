@@ -1,24 +1,25 @@
-let content1 = document.getElementById("links1");
+let indhold1 = document.getElementById("links1");
 
-function hello1() {
-if (content1.style.display === "none") {
-content1.style.display = "block";
+function liste1() {
+if (indhold1.style.display === "none") {
+indhold1.style.display = "block";
 } else
-content1.style.display = "none"
+indhold1.style.display = "none"
 }
 
-document.getElementById("eksempel1").addEventListener("click", hello1);
+document.getElementById("eksempel1").addEventListener("click", liste1);
 
-let content2 = document.getElementById("links2");
 
-function hello2() {
-if (content2.style.display === "none") {
-content2.style.display = "block";
+let indhold2 = document.getElementById("links2");
+
+function liste2() {
+if (indhold2.style.display === "none") {
+indhold2.style.display = "block";
 } else
-content2.style.display = "none"
+indhold2.style.display = "none"
 }
 
-document.getElementById("eksempel2").addEventListener("click", hello2);
+document.getElementById("eksempel2").addEventListener("click", liste2);
 
 
 
